@@ -16,8 +16,7 @@ const Team = (props) => {
             } 
             img {
                 width: 32px;
-                height: 32px;  
-                margin: 0px 10px;
+                height: 32px;               
             }
             `}
             </style>

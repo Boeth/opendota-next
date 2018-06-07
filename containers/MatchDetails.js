@@ -30,7 +30,7 @@ const MatchDetails = ({ matches, isFetching, error }) => {
              display: flex;
              flex-direction: row;
              align-items: center;
-             padding: 40px;
+             padding: 30px 0px;
       
         }
         .Info *{

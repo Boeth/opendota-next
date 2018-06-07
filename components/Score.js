@@ -4,7 +4,7 @@ import { getTimeInMS } from '../utils'
 const Score = (props) => {
     const { radiant_score, dire_score, duration } = props.match
     return (
-        <div>
+        <div className="score">
             <div className="radiant">
                 {radiant_score ? radiant_score : 'unknown'}
             </div>
@@ -15,6 +15,9 @@ const Score = (props) => {
                 {dire_score ? dire_score : 'unknown'}
             </div>
             <style jsx>{`
+            .score{
+                padding:10px;
+            }
             div{
                 display: flex;
                 justify-content: center;

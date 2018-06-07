@@ -9,9 +9,10 @@ const League = (props) => {
 
             <style jsx>{`
             span {
-                display: block;
+               display: flex;
+               flex-direction: column; 
                 text-transform: uppercase;
-                font-size: 12px;
+                font-size: 12px;                
             } 
             `}
             </style>

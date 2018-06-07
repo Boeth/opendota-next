@@ -10,7 +10,8 @@ const Players = ({ players }) =>
         <Table
             pagination={false}
             dataSource={players}
-            rowKey={players => players.personaname}>
+            scroll={{ x: 1000}}
+            rowKey={players => players.personaname}>            
             <Column width="120px"
                 title="Name"
                 key="personaname"
